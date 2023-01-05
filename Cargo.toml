@@ -1,0 +1,12 @@
+[package]
+name = "server_sent_events"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.2.1"
+actix-web-lab = "0.18.9"
+futures-util = { version = "0.3.25", default-features = false, features = ["std"] }
+parking_lot = "0.12.1"
